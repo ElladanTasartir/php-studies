@@ -34,3 +34,24 @@ echo '<br>';
 foreach ($noticias as $chave => $noticia) {
     echo $chave . ' => ' . $noticia . '<br>';
 }
+
+echo '<br>';
+echo '<br>';
+
+$i = 0;
+
+//  while
+while ($i < count($noticias)) {
+    echo $noticias[$i] . '<br>';
+    $i++;
+}
+
+echo '<br>';
+echo '<br>';
+
+$i = 0;
+//  do-while
+do {
+    echo $noticias[$i] . '<br>';
+    $i++;
+} while ($i < count($noticias));
